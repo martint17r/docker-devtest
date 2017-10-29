@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker run -it \
+	--volume $SSH_AUTH_SOCK:/ssh-agent --env SSH_AUTH_SOCK=/ssh-agent \
+	--volume $(pwd):/src \
+	devtest
+
