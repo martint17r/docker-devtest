@@ -10,4 +10,5 @@ yadm clone dotfiles
 yadm alt
 yadm decrypt
 vim +GoUpdateBinaries +qall
-go get github.com/smartystreets/goconvey```
+go get github.com/smartystreets/goconvey
+```
